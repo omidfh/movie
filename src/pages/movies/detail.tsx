@@ -110,15 +110,15 @@ const MoviesDetail = memo(() => {
           <Row>
             <Col lg="12">
               <div className="pt-0">
-                <VideoJS options={videoJsOptions} onReady={handlePlayerReady} />
-                {/* <div className="relative w-full aspect-video">
+                {/* <VideoJS options={videoJsOptions} onReady={handlePlayerReady} /> */}
+                <div className="relative w-full aspect-video">
                   <iframe
                     src="https://player.videasy.net/movie/299534"
                     title="Videasy Player"
                     allowFullScreen
                     className="absolute top-0 left-0 w-full h-full border-0"
                   ></iframe>
-                </div> */}
+                </div>
               </div>
             </Col>
           </Row>
