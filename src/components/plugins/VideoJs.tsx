@@ -78,14 +78,15 @@ export const VideoJS = (props: { options: any; onReady: any }) => {
     // <div data-vjs-player>
     //   <div ref={videoRef} />
     // </div>
-    <div className="ratio ratio-16x9">
-      <iframe
-        src="https://player.videasy.net/movie/299532"
-        title="Videasy Player"
-        allowFullScreen
-        allow="autoplay; encrypted-media"
-        className="border-0"
-      ></iframe>
+    <div className="container-fluid p-0">
+      <div className="ratio ratio-16x9">
+        <iframe
+          src="https://player.videasy.net/movie/299534"
+          title="Videasy Player"
+          allowFullScreen
+          className="w-100 h-100 border-0"
+        ></iframe>
+      </div>
     </div>
   );
 };

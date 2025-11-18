@@ -107,19 +107,9 @@ const MoviesDetail = memo(() => {
     <Fragment>
       <div className="iq-main-slider site-video">
         <Container fluid>
-          <Row>
+          <Row lg={"12"} md={"12"} sm={"12"}>
             <Col lg="12">
-              <div className="pt-0">
-                {/* <VideoJS options={videoJsOptions} onReady={handlePlayerReady} /> */}
-                <div className="relative w-full aspect-video">
-                  <iframe
-                    src="https://player.videasy.net/movie/299534"
-                    title="Videasy Player"
-                    allowFullScreen
-                    className="absolute top-0 left-0 w-full h-full border-0"
-                  ></iframe>
-                </div>
-              </div>
+              <VideoJS options={videoJsOptions} onReady={handlePlayerReady} />
             </Col>
           </Row>
         </Container>
